@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Windows.Forms;
 
 namespace iTunesMatchTagger
@@ -10,7 +11,7 @@ namespace iTunesMatchTagger
         /// </summary>
         [STAThread]
         static void Main()
-        {    
+        {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

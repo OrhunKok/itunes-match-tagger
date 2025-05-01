@@ -175,11 +175,5 @@
   &lt;string&gt;Matchet AAC-lydfil&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
-    <Setting Name="ProjectUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">http://code.google.com/p/itunes-match-tagger</Value>
-    </Setting>
-    <Setting Name="AuthorEmail" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">schirkan@googlemail.com</Value>
-    </Setting>
   </Settings>
 </SettingsFile>

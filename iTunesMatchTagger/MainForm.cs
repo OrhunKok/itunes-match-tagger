@@ -19,7 +19,7 @@ namespace iTunesMatchTagger
         {
             InitializeComponent();
 
-            this.Text += " - v" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() + " by Martin Pietschmann";
+            this.Text += " - v" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
             Logging.OnWriteLog += new Logging.WriteLogEventHandler(Logging_OnWriteLog);
             //_helper.OniTunesLookup += new iTunesHelper.iTunesLookupEventHandler(iTunesHelper_OniTunesLookup);
@@ -166,17 +166,6 @@ namespace iTunesMatchTagger
             }
 
             Cursor.Current = Cursors.Default;
-        }
-
-        /// <summary>
-        /// show info form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnInfo_Click(object sender, EventArgs e)
-        {
-            var info = new Info();
-            info.ShowDialog();
         }
 
         /// <summary>

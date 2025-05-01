@@ -43,7 +43,6 @@
             this.btnGetTracks = new System.Windows.Forms.Button();
             this.btnUpdateTracks = new System.Windows.Forms.Button();
             this.cbShowDebug = new System.Windows.Forms.CheckBox();
-            this.btnInfo = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.gridUpdateOptions = new System.Windows.Forms.DataGridView();
             this.Attribute = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -180,7 +179,6 @@
             this.panel1.Controls.Add(this.btnGetTracks);
             this.panel1.Controls.Add(this.btnUpdateTracks);
             this.panel1.Controls.Add(this.cbShowDebug);
-            this.panel1.Controls.Add(this.btnInfo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(834, 3);
             this.panel1.Name = "panel1";
@@ -230,16 +228,6 @@
             this.cbShowDebug.TabIndex = 7;
             this.cbShowDebug.Text = "Debug";
             this.cbShowDebug.UseVisualStyleBackColor = true;
-            // 
-            // btnInfo
-            // 
-            this.btnInfo.Location = new System.Drawing.Point(3, 113);
-            this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Size = new System.Drawing.Size(128, 23);
-            this.btnInfo.TabIndex = 8;
-            this.btnInfo.Text = "Info";
-            this.btnInfo.UseVisualStyleBackColor = true;
-            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // groupBox5
             // 
@@ -364,7 +352,6 @@
         private System.Windows.Forms.Button btnGetTracks;
         private System.Windows.Forms.Button btnUpdateTracks;
         private System.Windows.Forms.CheckBox cbShowDebug;
-        private System.Windows.Forms.Button btnInfo;
         private System.Windows.Forms.Button btnLookupTracks;
         private System.Windows.Forms.DataGridViewTextBoxColumn Attribute;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Update;
